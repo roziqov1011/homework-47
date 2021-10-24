@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>API</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-between button-wrap">
+            <button class="btn btn-success js-prev">prev</button>
+            <button class="btn btn-success js-next">next</button>
+        </div>
+        <form class="js-form" action="#">
+            <input class="form-control js-input" type="text" placeholder="kino nomini kiriting">
+        </form>
+        <!-- <div class="loder-wrap">
+            <span class="js-loader"></span>
+        </div> -->
+        <div class="lds-spinner js-loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        <ul class="list-films d-flex flex-wrap justify-content-around mt-3"></ul>
+        
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
